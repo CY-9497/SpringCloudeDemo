@@ -13,6 +13,9 @@ spring:
       server-addr: localhost:8848
       discovery:
         cluster-name: HZ # 集群名称
+        ephemeral: false # 是否是临时实例
+#        namespace: 123456 # 命名空间
+
 
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
