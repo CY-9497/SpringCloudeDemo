@@ -28,7 +28,6 @@ public class AuthorizeFilter implements GlobalFilter {
             //是，放行
             return chain.filter(exchange);
         }
-
         //否，拦截
         //设置状态码
         exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
