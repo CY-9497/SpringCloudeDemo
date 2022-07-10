@@ -16,8 +16,6 @@ spring:
         ephemeral: false # 是否是临时实例
 #        namespace: 123456 # 命名空间
 
-
-
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
